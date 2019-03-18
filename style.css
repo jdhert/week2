@@ -1,0 +1,27 @@
+/* style.css */
+
+#nose{
+    width: 300px;
+    height: 300px;
+    border:3px solid black;
+    background:url('images/abc.jpg') no-repeat;
+    background-position: -160px -280px;
+}
+#menu a{
+    width:70px;
+    height:100px;
+    background:url('images/sns.jpg') no-repeat;
+    display:inline-block;
+}
+a#twitter{
+    width:70px;
+    height:100px;
+    background:url('images/sns.jpg') no-repeat;
+    display:inline-block;
+    background-position-x: -80px;
+    background-position-y: -80px;
+    
+}
+a#twitter:hover{
+    background-position-y: -100px;
+}
